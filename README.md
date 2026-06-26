@@ -1,70 +1,119 @@
-# Getting Started with Create React App
+# 🖼️ Image Gallery
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive image search gallery built with React, powered by the Unsplash API. Search for any keyword and instantly browse a beautiful masonry-style grid of high-quality photos with photographer credits.
 
-## Available Scripts
+🌐 **Live Demo:** [gallery.henriquesantos.dev](https://gallery.henriquesantos.dev)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📸 Preview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> Search for any keyword and browse a responsive grid of high-quality images. Each card shows the photo and credits the photographer by name.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## ✨ Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 🔍 Real-time image search powered by the **Unsplash API**
+- 🗂️ Responsive masonry-style grid layout
+- 📷 Photographer credit displayed on each image card
+- ⚡ Fast and clean UI with a dark theme
+- 🖼️ High-resolution images sourced directly from Unsplash
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React 19**
+- **JavaScript (ES6+)**
+- **CSS3**
+- **[Unsplash API](https://unsplash.com/developers)** — free high-quality photos
+- **gh-pages** for deployment
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🔑 API Setup
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This project uses the [Unsplash API](https://unsplash.com/developers). To run it locally, you'll need a free API key.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Create an account at [unsplash.com/developers](https://unsplash.com/developers)
+2. Create a new application to get your **Access Key**
+3. Create a `.env` file at the root of the project:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```env
+REACT_APP_UNSPLASH_ACCESS_KEY=your_access_key_here
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🚀 Getting Started
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Prerequisites
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Node.js (v16+)
+- npm
+- Unsplash API key (see above)
 
-### Code Splitting
+### Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+# Clone the repository
+git clone https://github.com/Henr1queSantos/hs_gallery.git
 
-### Analyzing the Bundle Size
+# Navigate into the project
+cd hs_gallery
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Install dependencies
+npm install
+```
 
-### Making a Progressive Web App
+### Running locally
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+npm start
+```
 
-### Advanced Configuration
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Build for production
 
-### Deployment
+```bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Deploy to GitHub Pages
 
-### `npm run build` fails to minify
+```bash
+npm run deploy
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 📁 Project Structure
+
+```
+hs_gallery/
+├── public/
+├── src/
+│   ├── components/
+│   ├── App.js
+│   └── index.js
+├── .env
+├── package.json
+└── README.md
+```
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+## 👤 Author
+
+**Henrique Santos**
+
+- Portfolio: [henriquesantos.dev](https://henriquesantos.dev)
+- GitHub: [@Henr1queSantos](https://github.com/Henr1queSantos)
